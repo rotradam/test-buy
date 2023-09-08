@@ -3,40 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Payment Widget</title>
+    <title>Durch - Buy Crypto</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="https://static.moonpay.com/web-sdk/v1/moonpay-web-sdk.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>Durch</h1>
+        <h1>Durch.net</h1>
     </header>
     <div id="widget-modal-root">
         <div class="widget-container">
             <h2>Buy Crypto</h2>
-            
-            <!-- Amount Input -->
-            <div class="input-container">
-                <input type="number" id="amount" placeholder="Enter Amount">
-                <select id="fiatCurrency">
-                    <option value="EUR">EUR</option>
-                    <option value="USD">USD</option>
-                    <!-- Add other fiat currencies as needed -->
-                </select>
-            </div>
-            
-            <!-- Crypto Amount Input -->
-            <div class="input-container">
-                <input type="number" id="quoteAmount" placeholder="Crypto Amount">
-                <select id="cryptoCurrency">
-                    <option value="BTC">BTC</option>
-                    <option value="ETH">ETH</option>
-                    <!-- Add other cryptocurrencies as needed -->
-                </select>
-            </div>
-
-            <!-- Continue Button -->
-            <button type="submit" id="continueBtn">Continue</button>
+            <button type="button" id="continueBtn">Continue</button>
         </div>
     </div>
     <script src="script.js"></script>
